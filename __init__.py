@@ -1,0 +1,3 @@
+import gaokao_profile.gaokao_profile_flask
+gaokao_profile.gaokao_profile_flask.MODULE_PATH = "gaokao_profile"
+blueprint = gaokao_profile.gaokao_profile_flask.blueprint

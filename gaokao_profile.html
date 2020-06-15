@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="assets/gaokao_profile.css">
+        <title>汇文高考加油</title>
+
+        <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.js"></script>
+        <script src="assets/gaokao_profile.js"></script>
+    </head>
+    <body>
+        <div style="display:none;"><img src="assets/thumbnail.png"></div>
+        <div id="background">
+            <div id="shading"></div>
+            <div id="content">
+                <p>&nbsp;</p>
+                <form enctype="multipart/form-data">
+                    <input id="btn-upload" type="button" value="从相册选择头像" onclick="uploadOnclick()">
+                    <input id="file-selector" type="file" accept="image/png,image/jpeg" onchange="fileOnChange()">
+                </form>
+                <p>隐私声明</p>
+                <p>我们不会以任何形式储存来自你的任何图片<br>或销售给广告或其它营运机构</p>
+                <p>特别鸣谢</p>
+                <p>技术支持 / Haphaistos2333</p>
+                <p>头像框设计 / 慕清</p>
+                <p>&nbsp;</p>
+                <img src="assets/su-logo.png" id="su-logo">
+                <p>北京汇文中学学生会</p>
+                <p>2020</p>
+            </div>
+            <p id="copyright">
+                Copyright©北京汇文中学学生会&Haphaistos2333.2020.保留所有权利.<br>
+                头像框所有权利所属慕清.
+            </p>
+        </div>
+        <div id="pop-up">
+            <div id="pop-up-content">
+                <img id="img-res">
+                <p>长按图片来保存</p>
+            </div>
+        </div>
+    </body>
+</html>
