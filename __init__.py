@@ -1,3 +1,3 @@
-import gaokao_profile.gaokao_profile_flask
-gaokao_profile.gaokao_profile_flask.MODULE_PATH = "gaokao_profile"
-blueprint = gaokao_profile.gaokao_profile_flask.blueprint
+import Huiwen_Gaokao_Profile_Photo_2020.gaokao_profile_flask
+Huiwen_Gaokao_Profile_Photo_2020.gaokao_profile_flask.MODULE_PATH = "Huiwen_Gaokao_Profile_Photo_2020"
+blueprint = Huiwen_Gaokao_Profile_Photo_2020.gaokao_profile_flask.blueprint
